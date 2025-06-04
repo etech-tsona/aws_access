@@ -12,7 +12,7 @@ if ! command -v jq &> /dev/null; then
 fi
 
 # Variables
-ROLE_ARN="arn:aws:iam::586794438876:role/iac-role-terraform" # Replace with your role ARN
+ROLE_ARN="arn:aws:iam::727646513331:role/infrauser-role" # Replace with your role ARN
 SESSION_NAME="MySession"                                     # A unique session name
 DURATION=28800                                              # Session duration in seconds (max 12 hours for CLI)
 
